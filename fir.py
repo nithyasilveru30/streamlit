@@ -26,6 +26,11 @@ st.time_input("select time")
 st.file_uploader("drag files/folders")
 st.color_picker("color")
 st.progress(50)
+st.balloons()
 with st.spinner("just wait"):
   t.sleep(5)
 st.sidebar.title("student details")
+st.sidebar.text_input("mail Id")
+st.sidebar.text_input("password")
+st.sidebar.button("submit")
+
