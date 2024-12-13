@@ -36,6 +36,6 @@ st.sidebar.button("submit")
 import pandas as pd
 import numpy as np
 st.title("bar_chart")
-data=pd.dataframe(np.random.randn(25,2),columns=["x","y"])
+data=pd.DataFrame(np.random.randn(25,2),columns=["x","y"])
 st.bar_chart(data)
                   
