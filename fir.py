@@ -38,4 +38,7 @@ import numpy as np
 st.title("bar_chart")
 data=pd.DataFrame(np.random.randn(25,2),columns=["x","y"])
 st.bar_chart(data)
-                  
+st.title("line chart")
+st.line_chart(data)
+st.title("area chart")
+st.area_chart(data)
