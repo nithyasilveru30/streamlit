@@ -1,5 +1,5 @@
 import streamlit as st
-
+import time as t
 st.title("topics")
 st.header("machine learning")
 st.subheader("part1")
@@ -26,3 +26,6 @@ st.time_input("select time")
 st.file_uploader("drag files/folders")
 st.color_picker("color")
 st.progress(50)
+with st.spinner("just wait"):
+  t.sleep(5)
+st.sidebar.title("student details")
